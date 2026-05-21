@@ -46,7 +46,7 @@ st.write("---")
 st.subheader("🔒 Verification Required")
 user_input = st.text_input("Enter the secret code word to unlock this app:", type="password", placeholder="Hint: What am I to u?")
 
-if user_input.lower() == "best mate" or user_input.lower() == "best friend": 
+if user_input.lower() == "mate" or user_input.lower() == "best friend": 
     st.balloons()
     st.success("Access Granted! Welcome back, Best Friend. ✨")
     
